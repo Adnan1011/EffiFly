@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:alpha="0.8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome, Farwa!"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Check your flight status"
+        android:background="#95A3AD"
+        android:id="@+id/button"
+        android:radius="3dp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="See flight schedules"
+        android:background="#95A3AD"
+        android:id="@+id/button2"
+        android:radius="3dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginBottom="29dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Check cabin space in flight"
+        android:background="#95A3AD"
+        android:id="@+id/button3"
+        android:radius="3dp"
+        android:layout_marginBottom="24dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:text="Track my bags"
+        android:background="#95A3AD"
+        android:id="@+id/button4"
+        android:radius="3dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="43dp" />
+</RelativeLayout>
